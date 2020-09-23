@@ -1,0 +1,134 @@
+
+@media only screen and (max-width: 1024px) {
+
+}
+
+@media only screen and (max-width: 991px) {
+	header{
+		padding: 0 20px;
+	}
+	.menu-toggle{
+		display: block;
+	}
+	header nav{
+		position: absolute;
+		width: 100%;
+		height: calc(100vh-50px);
+		background: #333;
+		top: 50px;
+		left: -100%;
+		transition: 0.5s;
+		z-index: 100;
+	}
+	header nav.active{
+		left: 0;
+	}
+	header nav ul{
+		display: block;
+		text-align: center;
+	}
+	header nav ul li a{
+		border-bottom: 1px solid rgba(0,0,0,.2);
+	}
+	.dropdown{
+		display: none;
+	}
+	.download-content {
+    	margin-right: 0px;
+	}
+	.download-content h3{
+		text-align: center;
+		margin-top: 30px;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.banner h1 {
+    	font-size: 50px;
+	}
+	.banner p {
+     	font-size: 15px;
+	}
+	.download-content h3 {
+    	font-size: 45px;
+	}
+	.download-content p {
+    	font-size: 14px;
+	}
+	
+	.service-heading h2 {
+    	font-size: 40px;
+    	color: #25365D;
+	}
+	.call-center p {
+    	font-size: 14px;
+	}
+	.footer-head h2{
+		font-size: 33px;
+		letter-spacing: 2px;
+	}
+	.banner {
+   	 	padding-bottom: 300px;
+	}
+	.footer-head p{
+		line-height: 160%;
+		font-size: 15px;
+	}
+}
+@media only screen and (max-width: 575px) {
+	.service-items{
+		display: block;
+		text-align: center;
+	}
+	.icon {
+    	margin-right: 0;
+    	margin-bottom: 20px;
+	}
+}
+
+@media only screen and (max-width: 520px) {
+	.download-content .d-list li a {
+    	font-size: 14px;
+	}
+	.download-content .d-list li a i {
+    	font-size: 7px;
+    	margin-right: 10px;
+	}
+	.download-content h3 {
+    	font-size: 38px;
+	}
+	.service-heading h2 {
+    	font-size: 30px;
+	}
+}
+@media only screen and (max-width: 500px) {
+	.banner h1 {
+    	font-size: 40px;
+    	letter-spacing: 2px;
+	}
+	.service-heading h2 {
+    	letter-spacing: 1px;
+	}
+	.plan-head p {
+    	font-size: 14px;
+	}
+	.plan-items h5{
+		margin-bottom: 35px;
+	}
+}
+@media only screen and (max-width: 420px) {
+	.call-center .call-icon{
+		display: block;
+	}
+	.call-center .call-icon h4{
+		margin-bottom: 20px;
+	}
+}
+@media only screen and (max-width: 400px) {
+	.banner h1 {
+    	font-size: 34px;
+    	letter-spacing: 1px;
+	}
+}
+	
+
